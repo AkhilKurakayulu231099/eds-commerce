@@ -15,7 +15,11 @@ export default async function decorate(block) {
   // Create a video element
   var videoElement = document.createElement('video');
   videoElement.setAttribute('width', '100%');
-  videoElement.setAttribute('controls', 'true'); // Add controls (play, pause, etc.)
+  videoElement.setAttribute('autoplay', 'true'); // Start video automatically
+  videoElement.setAttribute('muted', 'true');    // Optionally mute the video
+  videoElement.style.position = 'absolute'; // Position the video at the top of the container
+  videoElement.style.top = '0';
+  videoElement.style.left = '0';
 
   // Create a source element and set its src to the video URL
   var sourceElement = document.createElement('source');
@@ -30,4 +34,14 @@ export default async function decorate(block) {
 
   // Play the video once it is inserted into the DOM
   videoElement.play();
+
+  // Get the list items (buttons) from the button class container
+  var buttons = buttonDiv.querySelectorAll('li');
+
+  // Ensure the buttons are side by side
+  buttonDiv.style.position = 'relative'; // Enable absolute positioning inside buttonDiv
+  buttonDiv.style.zIndex = '10'; // Make sure buttons are on top of the video
+
+  // Append the buttons (side by side) to the videoDiv
+  videoDiv.appendChild(buttonDiv);
 }
