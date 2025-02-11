@@ -13,10 +13,10 @@ export default async function decorate(block) {
   videoElement.setAttribute('autoplay', 'true');
   videoElement.setAttribute('muted', 'true');
   videoElement.setAttribute('loop', 'true');
-  videoElement.style.position = 'absolute';
+  /*videoElement.style.position = 'absolute';
   videoElement.style.top = '0';
   videoElement.style.left = '0';
-  videoElement.style.zIndex = '1';
+  videoElement.style.zIndex = '1';*/
 
   var sourceElement = document.createElement('source');
   sourceElement.setAttribute('src', videoUrl);
