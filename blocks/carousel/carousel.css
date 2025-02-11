@@ -72,13 +72,13 @@
 }
 
 .carousel .carousel-slide-indicator button {
-  width: 24px;
-  height: 24px;
-  margin: 0;
-  padding: 0;
-  border-radius: 50%;
-  background-color: #dadada;
-  transition: background-color 0.2s;
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    background-color: #dadada;
+    transition: background-color 0.2s;
 }
 
 .carousel .carousel-slide-indicator button:disabled,
