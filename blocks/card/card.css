@@ -3,7 +3,7 @@
     gap: 1.6rem;
 }
 
-.card-block-blue {
+.card-section .card-block-blue {
     background-color: teal;
     background-size: 205% 205%;
     background-position: bottom;
