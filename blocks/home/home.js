@@ -15,8 +15,8 @@ export default async function decorate(block) {
   // Create a video element
   var videoElement = document.createElement('video');
   videoElement.setAttribute('width', '100%');
-  videoElement.setAttribute('autoplay', 'true');  // Start video automatically
-  videoElement.setAttribute('muted', 'true');     // Optionally mute the video
+  videoElement.setAttribute('autoplay', 'true');  // Autoplay when page loads
+  videoElement.setAttribute('muted', 'true');     // Mute the video for autoplay
   videoElement.setAttribute('loop', 'true');      // Loop the video continuously
   videoElement.style.position = 'absolute';       // Position the video at the top of the container
   videoElement.style.top = '0';
@@ -34,12 +34,13 @@ export default async function decorate(block) {
   // Replace the <p> tag with the video element
   videoParagraph.replaceWith(videoElement);
 
-  // Wait for user interaction to start playing the video
-  document.body.addEventListener('click', function() {
+  // Wait for the video to load and then try playing it automatically
+  videoElement.onloadeddata = function() {
+    // Play the video once it is inserted and ready
     videoElement.play().catch(error => {
       console.error('Error playing the video:', error);
     });
-  });
+  };
 
   // Get the list items (buttons) from the button class container
   var buttons = buttonDiv.querySelectorAll('li');
