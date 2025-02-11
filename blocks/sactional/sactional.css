@@ -1,4 +1,13 @@
-.sactional-container{
+
+.sactional{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+    grid-gap: 24px;
+  }
+  .sactional-container{
     background-color: var(--background-color);
   }
 
@@ -23,11 +32,4 @@
     background: none;
   }
 
-  .sactionblock{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-    grid-gap: 24px;
-  }
+ 
