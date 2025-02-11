@@ -1,0 +1,40 @@
+/* Style for the video container */
+.videoclass {
+  position: relative; /* Ensure buttons can be positioned relative to this */
+}
+
+/* Hide the video controls */
+.videoclass video {
+  width: 100%;
+  height: auto;
+  position: absolute; /* Position the video absolutely within its container */
+  top: 0;
+  left: 0;
+  z-index: 1; /* Make sure the video is at the bottom layer */
+}
+
+/* Style for the button container */
+.buttonclass {
+  position: absolute;
+  top: 10px; /* Position buttons near the top left of the video */
+  left: 10px;
+  z-index: 10; /* Ensure the buttons are on top of the video */
+}
+
+/* Style for each button (list item) inside the button container */
+.buttonclass li {
+  display: inline-block; /* Make the buttons appear side by side */
+  margin-right: 10px; /* Space between buttons */
+}
+
+.buttonclass a {
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.buttonclass a:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+}
