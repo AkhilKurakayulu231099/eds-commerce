@@ -42,6 +42,7 @@
     cursor: pointer;
     text-transform: uppercase;
     background-color: #00808c;
+    color: white;
 }
 
 .buttonclass a:hover {
