@@ -17,6 +17,7 @@ export default async function decorate(block) {
   videoElement.setAttribute('width', '100%');
   videoElement.setAttribute('autoplay', 'true'); // Start video automatically
   videoElement.setAttribute('muted', 'true');    // Optionally mute the video
+  videoElement.setAttribute('loop', 'true');     // Optionally loop the video
   videoElement.style.position = 'absolute'; // Position the video at the top of the container
   videoElement.style.top = '0';
   videoElement.style.left = '0';
@@ -32,15 +33,20 @@ export default async function decorate(block) {
   // Replace the <p> tag with the video element
   videoParagraph.replaceWith(videoElement);
 
-  // Play the video once it is inserted into the DOM
-  videoElement.play();
+  // Wait for the video metadata to load before trying to play it
+  videoElement.onloadeddata = function() {
+    // Play the video once it is inserted into the DOM
+    videoElement.play().catch(error => {
+      console.error('Error playing the video:', error);
+    });
+  };
 
   // Get the list items (buttons) from the button class container
   var buttons = buttonDiv.querySelectorAll('li');
 
   // Ensure the buttons are side by side
   buttonDiv.style.position = 'relative'; // Enable absolute positioning inside buttonDiv
-  buttonDiv.style.zIndex = '10'; // Make sure buttons are on top of the video
+  buttonDiv.style.zIndex = '10'; // Ensure buttons are on top of the video
 
   // Append the buttons (side by side) to the videoDiv
   videoDiv.appendChild(buttonDiv);
