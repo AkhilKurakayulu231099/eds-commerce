@@ -22,7 +22,7 @@
   margin-right: 10px;
 }
 
-.buttonclass a {
+.buttonclass > ul > li > a {
     color: white;
 }
 
