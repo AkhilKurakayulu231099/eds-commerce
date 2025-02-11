@@ -416,7 +416,7 @@ main > .section:first-of-type {
 
 @media (width >= 900px) {
   main > .section > div {
-    padding: 0 var(--spacing-big);
+    /*padding: 0 var(--spacing-big);*/
   }
 }
 
