@@ -10,38 +10,41 @@
   position: absolute; /* Position the video absolutely within its container */
   top: 0;
   left: 0;
+ /* z-index: 1; /* Make sure the video is at the bottom layer */
 }
 
 /* Style for the button container */
 .buttonclass {
-  position: sticky; /* Make the buttons sticky while scrolling */
-  top: 10px; /* Adjust position to ensure buttons do not overlap with the header */
+  position: absolute;
+  top: 450px; /* Position buttons near the top left of the video */
   left: 10px;
-  z-index: 10; /* Ensure the buttons stay on top of the video */
-  display: flex;
-  flex-direction: row;
-  gap: 10px; /* Space between buttons */
+  z-index: 0;
 }
 
 /* Style for each button (list item) inside the button container */
 .buttonclass li {
-  display: inline-block; 
-  vertical-align: middle;
-  box-sizing: border-box;
-  text-decoration: none;
-  border: 1px solid transparent;
-  padding: 1.3rem 3.2rem;
-  font-size: 1.4rem;
-  font-weight: 700;
-  line-height: 2rem;
-  letter-spacing: 1px;
-  cursor: pointer;
-  text-transform: uppercase;
-  background-color: #00808c;
-  color: white;
+  display: inline-block; /* Make the buttons appear side by side */
+  margin-right: 10px; /* Space between buttons */
 }
 
-/* Hover effect for buttons */
-.buttonclass li:hover {
+.buttonclass li {
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 1.3rem 3.2rem;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #00808c;
+    color: white;
+}
+
+.buttonclass a:hover {
   background-color: rgba(0, 0, 0, 0.7); /* Darker background on hover */
 }
