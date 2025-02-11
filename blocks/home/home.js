@@ -34,14 +34,10 @@ export default async function decorate(block) {
   // Replace the <p> tag with the video element
   videoParagraph.replaceWith(videoElement);
 
-  // Attempt to play the video, but handle the error if autoplay is blocked
-  videoElement.play().catch(error => {
-    console.error('Error playing the video:', error);
-    // Fallback: try again after user interaction (e.g., click)
-    document.body.addEventListener('click', function() {
-      videoElement.play().catch(err => {
-        console.error('Error after user interaction:', err);
-      });
+  // Wait for user interaction to start playing the video
+  document.body.addEventListener('click', function() {
+    videoElement.play().catch(error => {
+      console.error('Error playing the video:', error);
     });
   });
 
