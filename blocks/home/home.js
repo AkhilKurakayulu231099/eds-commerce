@@ -33,8 +33,8 @@ export default async function decorate(block) {
 
   var buttons = buttonDiv.querySelectorAll('li');
 
-  buttonDiv.style.position = 'relative';
-  buttonDiv.style.zIndex = '10';
+  /*buttonDiv.style.position = 'relative';
+  buttonDiv.style.zIndex = '10';*/
 
   videoDiv.appendChild(buttonDiv);
 }
