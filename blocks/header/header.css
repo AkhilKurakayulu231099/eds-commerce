@@ -5,7 +5,7 @@ header .nav-wrapper {
   background-color: var(--background-color);
   width: 100%;
   z-index: 3;
-  /*position: fixed;*/
+  position: fixed;
   border-bottom: 1px solid var(--color-neutral-300);
 }
 
