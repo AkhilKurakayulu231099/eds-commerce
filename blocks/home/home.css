@@ -10,7 +10,7 @@
   position: absolute; /* Position the video absolutely within its container */
   top: 0;
   left: 0;
-  z-index: 1; /* Make sure the video is at the bottom layer */
+ /* z-index: 1; /* Make sure the video is at the bottom layer */
 }
 
 /* Style for the button container */
