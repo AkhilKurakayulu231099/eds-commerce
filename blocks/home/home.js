@@ -14,6 +14,7 @@ export default async function decorate(block) {
 
   // Create a video element
   var videoElement = document.createElement('video');
+  videoElement.setAttribute('controls', 'true');
   videoElement.setAttribute('width', '100%');
   videoElement.setAttribute('autoplay', 'true'); // Start video automatically
   videoElement.setAttribute('muted', 'true');    // Optionally mute the video
