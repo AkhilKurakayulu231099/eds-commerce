@@ -16,7 +16,7 @@
 /* Style for the button container */
 .buttonclass {
   position: absolute;
-  top: 10px; /* Position buttons near the top left of the video */
+  bottom: 10px; /* Position buttons near the bottom left of the video */
   left: 10px;
   z-index: 10; /* Ensure the buttons are on top of the video */
 }
@@ -27,14 +27,17 @@
   margin-right: 10px; /* Space between buttons */
 }
 
+/* Style for the button links */
 .buttonclass a {
   padding: 10px 15px;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color: #00808c; /* Set the background color to #00808c */
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
 }
 
+/* Style for the button on hover */
 .buttonclass a:hover {
-  background-color: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+  background-color: #006f6a; /* Darker shade of #00808c for hover */
 }
