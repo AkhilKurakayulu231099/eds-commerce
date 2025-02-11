@@ -7,6 +7,5 @@ export default async function decorate(block) {
   
     var cardBlockOne = document.querySelector('.card > div > div:first-child');
     cardBlockOne.classList.add('card-block-blue');
-
-  
+    cardBlockOne.classList.add('card-block');
 }
