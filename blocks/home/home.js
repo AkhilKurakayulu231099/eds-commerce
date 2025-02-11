@@ -5,3 +5,4 @@ var mainDivOnne = document.querySelector('.home');
 var containerNewwDiv = document.createElement('div');
 containerNewwDiv.setAttribute('class','lyt-container');
 mainDivOnne.appendChild(containerNewwDiv);
+}
