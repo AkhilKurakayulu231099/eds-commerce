@@ -27,7 +27,7 @@
   margin-right: 10px; /* Space between buttons */
 }
 
-.buttonclass a {
+.buttonclass li {
     display: inline-block;
     vertical-align: middle;
     box-sizing: border-box;
