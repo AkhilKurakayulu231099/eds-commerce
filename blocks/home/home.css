@@ -15,10 +15,10 @@
 
 /* Style for the button container */
 .buttonclass {
-  position: absolute;
-  top: 450px; /* Position buttons near the top left of the video */
-  left: 10px;
-  z-index: 0;
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    z-index: 1;
 }
 
 /* Style for each button (list item) inside the button container */
