@@ -11,7 +11,7 @@
     background-color: var(--background-color);
   }
 
-.sactional h2{
+.sactional-container h2{
     color: #56585a;
     font-style: normal;
     word-wrap: break-word;
@@ -30,6 +30,11 @@
     text-decoration: underline;
     color: #00808c;
     background: none;
+    overflow: visible;
   }
 
+  .sactional .button-container p{
+    margin: 0;
+    text-align: center;
+  }
  
