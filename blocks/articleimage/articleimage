@@ -2,6 +2,6 @@
     margin-bottom: 0;
     line-height: 0;
 }
-.articleimage-container img {
+.articleimage img {
     width: 100%
 }
