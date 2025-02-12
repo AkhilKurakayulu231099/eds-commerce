@@ -27,7 +27,7 @@
     text-align: center;
 }
 
-.shopnow div{
+.shopnow > div{
     width: 50%;
 }
 
