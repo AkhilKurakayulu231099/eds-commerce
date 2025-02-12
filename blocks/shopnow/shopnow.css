@@ -4,7 +4,7 @@
     padding: 0;
     display: flex;
     grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-    grid-gap: 24px;
+    grid-gap: 45px;
 }
 
 .shopnow .button-container a{
@@ -25,4 +25,25 @@
 }
 .shopnow .button-container{
     text-align: center;
+}
+
+.shopnow div{
+    width: 50%;
+}
+
+.shopnow h3{
+    margin-bottom: .5em;
+    letter-spacing: -.02em;
+    word-break: break-word;
+    font-weight: 400;
+    font-family: "miller-display, miller-display-fallback";
+    text-align: center;
+}
+
+.shopnow p{
+    text-align: center;
+}
+
+.shopnowbutton{
+    margin-top: 2.5rem !important;
 }
