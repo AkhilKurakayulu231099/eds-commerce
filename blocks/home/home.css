@@ -12,7 +12,7 @@
 
 .buttonclass {
   position: absolute;
-  top: 400px;
+  bottom: 40px;
   left: 10px;
   z-index: 1;
 }
@@ -20,6 +20,16 @@
 .buttonclass li {
   display: inline-block;
   margin-right: 10px;
+}
+
+.buttonclass > ul > li > a {
+    color: white;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    text-decoration: none;
 }
 
 .buttonclass li {
