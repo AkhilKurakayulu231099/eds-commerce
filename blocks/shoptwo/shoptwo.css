@@ -1,0 +1,45 @@
+
+.shoptwo{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+    grid-gap: 24px;
+}
+
+.shoptwo h2{
+    font-size: 3.2rem;
+    margin: 1.6rem 0;
+    font-family: "miller-display, miller-display-fallback";
+    text-align: center;
+}
+
+.shoptwo p{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #56585a;
+    text-align: center;
+    margin: 0;
+}
+
+.shoptwo .button-container p{
+    font-family: "museo-sans, museo-sans-fallback";
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    padding: 1.3rem 3.2rem;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+    border-radius: inherit;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #00808c;
+}
+.shoptwo .button-container{
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+.shopnow{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+    grid-gap: 24px;
+}
+
+.shopnow .button-container p{
+    font-family: "museo-sans, museo-sans-fallback";
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    padding: 1.3rem 3.2rem;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+    border-radius: inherit;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #00808c;
+}
+.shopnow .button-container{
+    text-align: center;
+}

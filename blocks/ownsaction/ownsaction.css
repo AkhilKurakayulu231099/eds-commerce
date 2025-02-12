@@ -1,18 +1,4 @@
-
-.sactional{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-    grid-gap: 24px;
-    
-  }
-  .sactional-container{
-    background-color: var(--background-color);
-  }
-
-.sactional-container h2{
+.ownsaction-container h2{
     color: #56585a;
     font-style: normal;
     word-wrap: break-word;
@@ -25,17 +11,29 @@
     margin-bottom: 2rem;
     font-size: 26px;
     text-align: center;
+}
+
+.ownsaction{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+    grid-gap: 24px;
+}
+
+.ownsaction-container{
+    background-color: var(--background-color);
   }
 
-  .sactional .button-container p a{
+  .ownsaction .button-container p a{
     text-decoration: underline;
     color: #00808c;
     background: none;
     overflow: visible;
   }
 
-  .sactional .button-container p{
+  .ownsaction .button-container p{
     margin: 0;
     text-align: center;
   }
- 
