@@ -3,5 +3,5 @@
     line-height: 0;
 }
 .articleimage img {
-    width: 100%
+    width: 100%;
 }
