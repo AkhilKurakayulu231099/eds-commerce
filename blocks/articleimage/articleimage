@@ -1,4 +1,7 @@
-.section.articletext-container {
+.section.articleimage-container {
     margin-bottom: 0;
     line-height: 0;
+}
+.articleimage-container img {
+    width: 100%
 }
