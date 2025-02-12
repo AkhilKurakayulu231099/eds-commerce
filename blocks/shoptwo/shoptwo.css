@@ -35,11 +35,15 @@
     font-style: normal;
     font-weight: 700;
     line-height: 2rem;
-    border-radius: inherit;
+    border-radius: inherit !important;
     cursor: pointer;
     text-transform: uppercase;
-    background-color: #00808c;
+    background-color: #00808c !important;
 }
 .shoptwo .button-container{
     text-align: center;
+}
+
+.shoptwobutton{
+    margin-top: 2.5rem;
 }
