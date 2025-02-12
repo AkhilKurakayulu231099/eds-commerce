@@ -31,6 +31,7 @@
     color: #00808c;
     background: none;
     overflow: visible;
+    margin: 0;
   }
 
   .ownsaction .button-container p{

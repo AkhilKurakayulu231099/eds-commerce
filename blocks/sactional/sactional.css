@@ -32,6 +32,7 @@
     color: #00808c;
     background: none;
     overflow: visible;
+    margin: 0;
   }
 
   .sactional .button-container p{

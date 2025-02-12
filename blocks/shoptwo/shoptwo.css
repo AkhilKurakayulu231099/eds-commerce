@@ -24,7 +24,7 @@
     margin: 0;
 }
 
-.shoptwo .button-container p{
+.shoptwo .button-container a{
     font-family: "museo-sans, museo-sans-fallback";
     display: inline-block;
     vertical-align: middle;
