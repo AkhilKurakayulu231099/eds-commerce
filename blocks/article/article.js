@@ -4,7 +4,13 @@ export default async function decorate(block) {
 
     var articleTwoDiv = document.querySelector('.article-two');
     articleTwoDiv.classList.add('article');
-  
-    var articleDiv = document.querySelector('.article > div') && document.querySelector('.article-white > div') && document.querySelector('.article-two > div');
+
+    var articleDiv = document.querySelector('.article > div');
     articleDiv.classList.add('article-section');
+
+    var articleWhite = document.querySelector('.article-white > div') ;
+    articleTwo.classList.add('article-section');
+  
+    var articleTwo = document.querySelector('.article-two > div');
+    articleTwo.classList.add('article-section');
 }
