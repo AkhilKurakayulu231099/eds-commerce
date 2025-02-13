@@ -9,8 +9,8 @@ export default async function decorate(block) {
     articleDiv.classList.add('article-section');
 
     var articleWhite = document.querySelector('.article-white > div') ;
-    articleTwo.classList.add('article-section');
+    articleTwo.classList.add('article-section-white');
   
     var articleTwo = document.querySelector('.article-two > div');
-    articleTwo.classList.add('article-section');
+    articleTwo.classList.add('article-section-two');
 }
