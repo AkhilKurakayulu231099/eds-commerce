@@ -1,6 +1,8 @@
 .card-section {
     display: flex;
     gap: 1.6rem;
+    max-width: 1250px;
+    margin: 0 auto;
 }
 
 .card-section .card-block-blue {
