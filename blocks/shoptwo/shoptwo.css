@@ -6,6 +6,7 @@
     display: flex;
     grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
     grid-gap: 24px;
+    padding: 0 32px;
 }
 
 .shoptwo h2{
