@@ -11,11 +11,11 @@ export default async function decorate(block) {
     var articleTwo = document.querySelector('.article-two > div');
     articleTwo.classList.add('article-section-two');
 
-    var articleOneDiv = document.querySelector('.article-one');
-    articleOneDiv.classList.add('article');
+    // var articleOneDiv = document.querySelector('.article-one');
+    // articleOneDiv.classList.add('article');
 
-    var articleOne = document.querySelector('.article-one > div');
-    articleOne.classList.add('article-section-one');
+    // var articleOne = document.querySelector('.article-one > div');
+    // articleOne.classList.add('article-section-one');
   
 
 }
