@@ -40,6 +40,10 @@
     font-weight: 400;
 }
 
+.card-section .button-container {
+    margin-bottom: 0;
+}
+
 .card-section p {
     line-height: 2.8rem;
     margin-top: 0;
