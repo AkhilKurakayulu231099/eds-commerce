@@ -48,7 +48,7 @@
     font-size: 1.4rem;
 }
 
-.card-section a {
+.card-section .button-container a {
     color: #00808c;
     font-family: museo-sans, museo-sans-fallback;
     display: inline-block;
