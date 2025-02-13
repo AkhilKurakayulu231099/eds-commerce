@@ -29,7 +29,7 @@
 }
 
 .article p a {
-    margin-top: 3rem;
+    margin: 3rem 0.5rem 0;
     color: #ffffff;
     font-family: museo-sans, museo-sans-fallback;
     display: inline-block;
