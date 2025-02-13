@@ -7,6 +7,9 @@
     grid-gap: 45px;
 }
 
+.shopnow-container{
+    padding: 0 2rem;
+}
 .shopnow .button-container a{
     font-family: "museo-sans, museo-sans-fallback";
     display: inline-block;

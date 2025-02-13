@@ -10,6 +10,7 @@
   }
   .sactional-container{
     background-color: var(--background-color);
+    padding: 0 30px;
   }
 
 .sactional-container h2{
