@@ -1,1 +1,35 @@
 
+footer {
+  background-color: #56585a;
+}
+
+.contact-info-container {
+  padding: 5.6rem 0;
+}
+
+.contact-info {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  gap: 32px;
+}
+
+.contact-info-section {
+  flex: 1 1 20%;
+}
+
+footer .footer > div {
+  margin: auto;
+  max-width: 1200px;
+  padding: 40px 24px 24px;
+}
+
+footer .footer p {
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  footer .footer > div {
+    padding: 40px 32px 24px;
+  }
+}
