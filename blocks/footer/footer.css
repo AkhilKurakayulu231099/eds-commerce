@@ -15,6 +15,12 @@ footer {
   color: #ffffff;
 }
 
+.logo-section {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .contact-info-section {
   flex: 1 1 20%;
 }
