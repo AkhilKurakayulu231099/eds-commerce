@@ -10,8 +10,8 @@
 .shopnow-container{
     padding: 0 2rem;
 }
-.shopnow .button-container a{
-    font-family: "museo-sans, museo-sans-fallback";
+.shopnow .button-container .button{
+    font: var(--type-body-1-strong-font);
     display: inline-block;
     vertical-align: middle;
     box-sizing: border-box;
@@ -21,10 +21,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: 2rem;
-    border-radius: inherit !important;
+    border-radius: inherit;
     cursor: pointer;
     text-transform: uppercase;
-    background-color: #00808c !important;
+    background-color: #00808c;
 }
 .shopnow .button-container{
     text-align: center;
@@ -51,6 +51,6 @@
     margin-top: 5rem !important;
 }
 
-.shopnow .button-container p a:hover{
-    background-color: #00525a !important;
+.shopnow .button-container .button:hover{
+    background-color: #00525a;
 }
