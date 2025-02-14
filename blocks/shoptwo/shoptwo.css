@@ -57,6 +57,6 @@
 }
 
 .shoptwo .button-container a:hover{
-    background-color: #00525a;
+    background-color: #00525a !important;
 }
 
