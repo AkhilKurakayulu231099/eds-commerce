@@ -153,6 +153,9 @@ header nav .nav-sections {
   flex: 1 1 auto;
   display: none;
   visibility: hidden;
+  display: grid;
+  place-items: center;
+  color: #56585a;
 }
 
 header nav[aria-expanded='true'] .nav-sections {
@@ -171,6 +174,7 @@ header nav .nav-sections ul {
 header nav .nav-sections ul > li,
 header nav .nav-sections ul > li > a {
     font-weight: 500;
+    color: #56585a;
 }
 
 header nav .nav-sections ul > li > ul {
