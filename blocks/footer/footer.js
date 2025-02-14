@@ -27,5 +27,15 @@ export default async function decorate(block) {
     emailDiv.classList.add('email-info');
   }
 
+  const linkDiv = footer.querySelector('.contact-info > div:nth-child(4)');
+  if (linkDiv) {
+    linkDiv.classList.add('contact-info-section');
+  }
+
+  const copyrightDiv = footer.querySelector('.contact-info > div:nth-child(5)');
+  if (copyrightDiv) {
+    copyrightDiv.classList.add('contact-info-section');
+  }
+
   block.append(footer);
 }
