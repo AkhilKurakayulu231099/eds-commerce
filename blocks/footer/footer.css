@@ -16,6 +16,20 @@ footer {
 
 .contact-info-section {
   flex: 1 1 20%;
+  color: #ffffff;
+}
+
+.phone-info,
+.email-info {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.footer-info {
+  font-size: 1rem;
+  line-height: 2.8rem;
+  text-align: center;
 }
 
 footer .footer > div {
