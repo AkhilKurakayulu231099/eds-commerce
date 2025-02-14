@@ -21,6 +21,11 @@ footer {
   font-weight: 700;
 }
 
+.logo-section p a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .contact-info-section {
   flex: 1 1 20%;
 }
