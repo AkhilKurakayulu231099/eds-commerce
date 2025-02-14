@@ -40,6 +40,10 @@
     font-weight: 400;
 }
 
+.card-section .button-container {
+    margin-bottom: 0;
+}
+
 .card-section p {
     line-height: 2.8rem;
     margin-top: 0;
@@ -48,7 +52,7 @@
     font-size: 1.4rem;
 }
 
-.card-section a {
+.card-section .button-container a.button {
     color: #00808c;
     font-family: museo-sans, museo-sans-fallback;
     display: inline-block;
@@ -65,4 +69,6 @@
     cursor: pointer;
     text-transform: uppercase;
     background-color: #ffffff;
+    border-radius: 0;
+    margin: 0;
 }
