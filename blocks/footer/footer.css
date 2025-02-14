@@ -58,7 +58,7 @@ footer {
 .phone-info,
 .email-info {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
 }
 
