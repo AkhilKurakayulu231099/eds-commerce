@@ -21,11 +21,6 @@ footer {
   font-weight: 700;
 }
 
-.logo-section p a:hover {
-  color: #ffffff;
-  text-decoration: none;
-}
-
 .contact-info-section {
   flex: 1 1 20%;
 }
@@ -37,6 +32,11 @@ footer {
 
 .contact-info-section p a:hover {
     text-decoration: underline;
+}
+
+.logo-section p a:hover {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .phone-info,
