@@ -12,11 +12,11 @@ footer {
   text-align: left;
   align-items: center;
   gap: 32px;
+  color: #ffffff;
 }
 
 .contact-info-section {
   flex: 1 1 20%;
-  color: #ffffff;
 }
 
 .phone-info,
@@ -30,20 +30,16 @@ footer {
   font-size: 1rem;
   line-height: 2.8rem;
   text-align: center;
+  color: #ffffff;
 }
-
+.footer {
+    padding-bottom: 2rem;
+}
 footer .footer > div {
   margin: auto;
   max-width: 1200px;
-  padding: 40px 24px 24px;
 }
 
 footer .footer p {
   margin: 0;
-}
-
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
-  }
 }
