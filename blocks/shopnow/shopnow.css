@@ -50,3 +50,7 @@
 .shopnowbutton{
     margin-top: 5rem !important;
 }
+
+.shopnow .button-container p a:hover{
+    background-color: #00525a;
+}
