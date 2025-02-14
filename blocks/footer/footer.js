@@ -15,6 +15,7 @@ export default async function decorate(block) {
   const contactDiv = footer.querySelector('.contact-info > div');
   if (contactDiv) {
     contactDiv.classList.add('contact-info-section');
+    contactDiv.classList.add('logo-section');
   }
 
   const phoneDiv = footer.querySelector('.contact-info > div:nth-child(2)');
