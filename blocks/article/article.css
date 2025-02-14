@@ -26,14 +26,14 @@
 .article p a {
     margin: 3rem 0.5rem 0;
     color: #ffffff;
-    font-family: museo-sans, museo-sans-fallback;
+    font: var(--type-body-1-strong-font);
     display: inline-block;
     font-weight: 300;
     vertical-align: middle;
     box-sizing: border-box;
     text-decoration: none;
     padding: 1.3rem 3.2rem;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 700;
     line-height: 1.8rem;
@@ -44,6 +44,8 @@
     border: 1px solid transparent;
 }
 
-.article a:hover {
+.article p a:hover {
     background-color: #00525a;
+    color: #ffffff;
+    text-decoration: none;
 }

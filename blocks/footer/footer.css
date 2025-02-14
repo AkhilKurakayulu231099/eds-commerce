@@ -1,21 +1,88 @@
+
 footer {
-  background-color: var(--color-neutral-100);
-  font: var(--type-body-2-default-font);
-  letter-spacing: var(--type-body-2-default-letter-spacing);
+  background-color: #56585a;
 }
 
+.contact-info-container {
+  padding: 5.6rem 0;
+}
+
+.contact-info-container img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.contact-info {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  gap: 32px;
+  color: #ffffff;
+}
+
+.contact-info-section {
+  flex: 1 1 20%;
+}
+
+.contact-info-section .button-container .button, .contact-info-section p a {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    color: #ffffff;
+}
+
+.contact-info-section .button-container .button:hover, .contact-info-section p a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.contact-info-section p {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+}
+
+.contact-info-section p a:hover {
+    text-decoration: underline;
+}
+
+.logo-section .button-container .button {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.logo-section .button-container .button:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.phone-info,
+.email-info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.phone-info p:first-child,
+.email-info p:first-child {
+    font-size-s: 1.6rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+}
+
+.footer-info {
+  font-size: 1rem;
+  line-height: 2.8rem;
+  text-align: center;
+  color: #ffffff;
+}
+.footer {
+    padding-bottom: 2rem;
+}
 footer .footer > div {
   margin: auto;
   max-width: 1200px;
-  padding: 40px 24px 24px;
 }
 
 footer .footer p {
   margin: 0;
-}
-
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
-  }
 }
