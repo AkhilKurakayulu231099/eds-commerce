@@ -21,11 +21,13 @@ export default async function decorate(block) {
   const phoneDiv = footer.querySelector('.contact-info > div:nth-child(2)');
   if (phoneDiv) {
     phoneDiv.classList.add('phone-info');
+    phoneDiv.classList.add('contact-info-section');
   }
 
   const emailDiv = footer.querySelector('.contact-info > div:nth-child(3)');
   if (emailDiv) {
     emailDiv.classList.add('email-info');
+    emailDiv.classList.add('contact-info-section');
   }
 
   const linkDiv = footer.querySelector('.contact-info > div:nth-child(4)');
