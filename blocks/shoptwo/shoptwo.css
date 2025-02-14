@@ -25,7 +25,7 @@
     margin: 0;
 }
 
-.shoptwo p a{
+.shoptwo .button-container .button{
     font-family: "museo-sans, museo-sans-fallback";
     display: inline-block;
     vertical-align: middle;
@@ -56,7 +56,7 @@
     padding-top: 2.5rem;
 }
 
-.shoptwo p a:hover{
+.shoptwo .button-container .button:hover{
     background-color: #00525a;
 }
 
