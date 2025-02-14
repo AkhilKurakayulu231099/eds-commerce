@@ -7,6 +7,11 @@ footer {
   padding: 5.6rem 0;
 }
 
+.contact-info-container img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
 .contact-info {
   display: flex;
   text-align: left;
@@ -23,6 +28,17 @@ footer {
 
 .contact-info-section {
   flex: 1 1 20%;
+}
+
+.contact-info-section .button-container .button {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    color: #ffffff;
+}
+
+.contact-info-section .button-container .button:hover {
+    text-decoration: underline;
+    color: #ffffff;
 }
 
 .contact-info-section p {
