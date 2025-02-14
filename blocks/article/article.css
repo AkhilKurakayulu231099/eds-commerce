@@ -47,4 +47,5 @@
 .article p a:hover {
     background-color: #00525a;
     color: #ffffff;
+    text-decoration: none;
 }
