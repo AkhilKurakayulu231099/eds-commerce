@@ -44,6 +44,7 @@
     border: 1px solid transparent;
 }
 
-.article a:hover {
+.article p a:hover {
     background-color: #00525a;
+    color: #ffffff;
 }
