@@ -24,6 +24,7 @@
 
 .ownsaction-container{
     background-color: var(--background-color);
+    padding: 0 55px;
   }
 
   .ownsaction .button-container p a{
