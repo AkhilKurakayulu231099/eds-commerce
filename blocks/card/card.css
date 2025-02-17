@@ -52,7 +52,7 @@
 }
 
 .card-section .button-container a.button {
-    color: #00808c;
+    color: var(--color-brand-300);
     font: var(--type-body-1-strong-font);
     display: inline-block;
     vertical-align: middle;
