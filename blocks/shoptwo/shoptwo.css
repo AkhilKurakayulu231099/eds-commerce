@@ -17,11 +17,6 @@
 }
 
 .shoptwo p{
-    font-size: 21px;
-    font-weight: 300;
-    line-height: 27px;
-    color: #56585a;
-    text-align: center;
     margin: 0;
 }
 
@@ -51,9 +46,6 @@
 
 .imgShoptwo{
     padding-left: 30px;
-}
-.shoptwobutton{
-    padding-top: 2.5rem;
 }
 
 .shoptwo .button-container .button:hover{
