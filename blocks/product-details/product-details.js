@@ -146,6 +146,7 @@ export default async function decorate(block) {
           const values = pdpApi.getProductConfigurationValues();
           const valid = pdpApi.isProductConfigurationValid();
           console.log(valid);
+          console.log(values);
 
           // add the product to the cart
           if (valid) {
