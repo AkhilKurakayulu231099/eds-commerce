@@ -39,8 +39,9 @@
     letter-spacing: -.02em;
     word-break: break-word;
     font-weight: 400;
-    font-family: "miller-display, miller-display-fallback";
+    font-family: "miller-display";
     text-align: center;
+    font-size: 3.2rem;
 }
 
 .shopnow p{
