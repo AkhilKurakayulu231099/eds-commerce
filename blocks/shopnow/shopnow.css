@@ -24,7 +24,7 @@
     border-radius: inherit;
     cursor: pointer;
     text-transform: uppercase;
-    background-color: #00808c;
+    background-color: var(--color-brand-300);
 }
 .shopnow .button-container{
     text-align: center;
@@ -52,5 +52,5 @@
 }
 
 .shopnow .button-container .button:hover{
-    background-color: #00525a;
+    background-color: var(--color-brand-600);
 }

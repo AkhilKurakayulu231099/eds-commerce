@@ -29,10 +29,14 @@
 
   .ownsaction .button-container p a{
     text-decoration: underline;
-    color: #00808c;
+    color: var(--color-brand-300);
     background: none;
     overflow: visible;
     margin: 0;
+  }
+
+  .ownsaction .button-container p a:hover{
+    color: var(--color-brand-600);
   }
 
   .ownsaction .button-container p{
