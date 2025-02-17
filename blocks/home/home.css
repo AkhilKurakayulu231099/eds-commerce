@@ -52,4 +52,5 @@
 
 .buttonclass li:hover{
   background-color: var(--color-brand-600);
+  color: white;
 }
