@@ -1,0 +1,17 @@
+
+.headerfix{
+    display: flex    ;
+    height: 20px;
+    gap: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #ffff;
+    background-color: dimgrey;
+}
+
+.headerfix img{
+    width: 10%;
+    height: 10px;
+    object-fit: cover;
+}

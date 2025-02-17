@@ -12,21 +12,16 @@
 .shoptwo h2{
     font-size: 3.2rem;
     margin: 1.6rem 0;
-    font-family: "miller-display, miller-display-fallback";
+    font-family: "miller-display";
     text-align: center;
 }
 
 .shoptwo p{
-    font-size: 21px;
-    font-weight: 300;
-    line-height: 27px;
-    color: #56585a;
-    text-align: center;
     margin: 0;
 }
 
-.shoptwo .button-container a{
-    font-family: "museo-sans, museo-sans-fallback";
+.shoptwo .button-container .button{
+    font: var(--type-body-1-strong-font);
     display: inline-block;
     vertical-align: middle;
     box-sizing: border-box;
@@ -36,10 +31,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: 2rem;
-    border-radius: inherit !important;
+    border-radius: inherit;
     cursor: pointer;
     text-transform: uppercase;
-    background-color: #00808c !important;
+    background-color: var(--color-brand-300);
 }
 .shoptwo .button-container{
     text-align: center;
@@ -52,7 +47,8 @@
 .imgShoptwo{
     padding-left: 30px;
 }
-.shoptwobutton{
-    padding-top: 2.5rem;
+
+.shoptwo .button-container .button:hover{
+    background-color: var(--color-brand-600);
 }
 

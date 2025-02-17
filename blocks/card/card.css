@@ -6,7 +6,7 @@
 }
 
 .card-section .card-block-blue {
-    background-color: teal;
+    background-color: #595e60;
     background-size: 205% 205%;
     background-position: bottom;
     background-image: url(https://www.lovesac.com/media_19eaccd….webp?width=750&format=webp&optimize=medium);
@@ -25,14 +25,14 @@
     margin-bottom: 0.5em;
     letter-spacing: -0.02em;
     margin-top: 0;
-    font-size: 2rem;
+    font-size: 3.2rem;
     word-break: break-word;
     font-weight: 400;
 }
 
 .card-section h3 {
     margin-bottom: 0.5em;
-    font-family: miller-display, miller-display-fallback;
+    font-family: miller-display;
     letter-spacing: -0.02em;
     margin-top: 0;
     font-size: 3.2rem;
@@ -48,12 +48,11 @@
     line-height: 2.8rem;
     margin-top: 0;
     margin-bottom: 2.5rem;
-    font-family: museo-sans, museo-sans-fallback;
-    font-size: 1.4rem;
+    /* font-family: museo-sans, museo-sans-fallback; */
 }
 
 .card-section .button-container a.button {
-    color: #00808c;
+    color: var(--color-brand-300);
     font: var(--type-body-1-strong-font);
     display: inline-block;
     vertical-align: middle;
@@ -75,4 +74,8 @@
 
 .card-section .button-container a.button:hover {
     border: 1px solid #00808c;   
+}
+
+.card-block-blue > p{
+    padding-bottom: 1.6rem;
 }
