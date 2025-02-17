@@ -48,7 +48,7 @@
     line-height: 2.8rem;
     margin-top: 0;
     margin-bottom: 2.5rem;
-    font-family: museo-sans, museo-sans-fallback;
+    /* font-family: museo-sans, museo-sans-fallback; */
 }
 
 .card-section .button-container a.button {
@@ -74,4 +74,8 @@
 
 .card-section .button-container a.button:hover {
     border: 1px solid #00808c;   
+}
+
+#plus-an-extra-5-off-for-our-heroes > p{
+    padding-bottom: 1.6rem;
 }
