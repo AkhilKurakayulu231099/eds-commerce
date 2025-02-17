@@ -54,12 +54,12 @@
 
 .card-section .button-container a.button {
     color: #00808c;
-    font-family: museo-sans, museo-sans-fallback;
+    font: var(--type-body-1-strong-font);
     display: inline-block;
     vertical-align: middle;
     box-sizing: border-box;
     text-decoration: none;
-    border: 1px solid #00808c;
+    border: 1px solid transparent;
     padding: 1.3rem 3.2rem;
     font-size: 1.4rem;
     font-style: normal;
@@ -71,4 +71,8 @@
     background-color: #ffffff;
     border-radius: 0;
     margin: 0;
+}
+
+.card-section .button-container a.button:hover {
+    border: 1px solid #00808c;   
 }
