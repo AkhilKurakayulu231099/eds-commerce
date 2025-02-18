@@ -498,3 +498,12 @@ body.columns main > .section:empty {
 main[hidden] {
   display: none !important;
 }
+
+/*PDP Changes*/
+.pdp-description {
+    display: none;
+}
+ 
+.product-details__attributes {
+    display: none;
+}
