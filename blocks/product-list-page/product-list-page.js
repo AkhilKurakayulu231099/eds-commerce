@@ -51,6 +51,9 @@ export default async function decorate(block) {
     },
   };
 
+// remove class in product list
+$('.ds-sdk-product-image-carousel').removeClass('max-w-[200px]');
+
   if (type !== 'search') {
     storeDetails.config.categoryName = document.querySelector('.default-content-wrapper > h1')?.innerText;
     storeDetails.config.currentCategoryId = category;
