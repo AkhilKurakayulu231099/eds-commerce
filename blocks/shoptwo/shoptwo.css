@@ -5,7 +5,7 @@
     padding: 0;
     display: flex;
     grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-    grid-gap: 24px;
+    grid-gap: 40px;
     padding: 0 32px;
 }
 
@@ -42,10 +42,6 @@
 
 .shoptwo > div{
     text-align: center;
-}
-
-.imgShoptwo{
-    padding-left: 30px;
 }
 
 .shoptwo .button-container .button:hover{
