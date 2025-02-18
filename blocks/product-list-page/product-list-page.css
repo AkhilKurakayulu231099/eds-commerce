@@ -24,12 +24,14 @@ main .catproduct-container{
 }
 
 .ds-sdk-product-item__product-name{
-    font-size: 1.8rem;
     padding-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
 .ds-sdk-add-to-cart-button{
     margin: 0 20%;
+    padding-top: 1rem;
 }
 
 .ds-sdk-add-to-cart-button button{
@@ -50,7 +52,7 @@ main .catproduct-container{
 
 .ds-widgets_results .ds-sdk-product-list > div > div{
     max-width: 30rem;
-    border-color: rgb(230 225 225 / 41%);
+    border-color: rgb(230 225 225 / 41%) !important;
 }
 
 .catproduct > div > div > h1,h2{
@@ -93,4 +95,15 @@ main .catproduct-container{
 .ds-widgets_results.flex.flex-col.items-center.flex-\[75\] > div > ul > li.ds-plp-pagination__item--current{
     background-color: #56585a;
     color: white;
+}
+.ds-widgets_results > .ds-sdk-product-list > div > div:nth-child(1) > a:hover{
+    text-decoration: none;
+}
+
+.ds-widgets_results > .ds-sdk-product-list > div > div:nth-child(1) > a:hover{
+    text-decoration: none;
+}
+
+.ds-sdk-product-price{
+    padding-top: 1rem;
 }
