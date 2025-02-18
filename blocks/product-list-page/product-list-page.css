@@ -13,3 +13,28 @@
         min-height: auto;
     }
 }
+
+
+.product-list-page-container{
+    margin: 0 2%;
+}
+
+.sofa-container{
+    margin: 0 2%;
+}
+.ds-widgets .max-w-sm {
+    max-width: 28rem;
+}
+
+.ds-sdk-product-item__product-name{
+    font-size: 1.8rem;
+    padding-top: 2rem;
+}
+
+.ds-sdk-add-to-cart-button{
+    margin: 0 20%;
+}
+
+.ds-sdk-add-to-cart-button button{
+    height: 40px;
+}
