@@ -25,7 +25,7 @@ main .catproduct-container{
 
 .ds-sdk-product-item__product-name{
     padding-top: 2rem;
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
     font-weight: bold;
 }
 
@@ -96,11 +96,7 @@ main .catproduct-container{
     background-color: #56585a;
     color: white;
 }
-.ds-widgets_results > .ds-sdk-product-list > div > div:nth-child(1) > a:hover{
-    text-decoration: none;
-}
-
-.ds-widgets_results > .ds-sdk-product-list > div > div:nth-child(1) > a:hover{
+.ds-widgets_results > .ds-sdk-product-list > div > div > a:hover{
     text-decoration: none;
 }
 
