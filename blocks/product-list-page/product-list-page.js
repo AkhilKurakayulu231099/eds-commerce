@@ -52,8 +52,9 @@ export default async function decorate(block) {
   };
 
 // remove class in product list
-const productimg = document.querySelector('div .ds-sdk-product-image-carousel');
-  $(productimg).removeClass('max-w-[200px]');
+  var productimg = document.querySelector('.ds-sdk-product-image-carousel');
+  productimg.classList.remove('max-w-[200px]');
+  
   console.log("sdssssss");
 
   if (type !== 'search') {
