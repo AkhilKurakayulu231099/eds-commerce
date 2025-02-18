@@ -22,14 +22,11 @@ main .product-list-page-container{
 main .catproduct-container{
     margin: 0 2%;
 }
-.ds-widgets .max-w-sm {
-    max-width: 30rem;
-}
 
-/* .ds-sdk-product-item__product-name{
+.ds-sdk-product-item__product-name{
     font-size: 1.8rem;
     padding-top: 2rem;
-} */
+}
 
 .ds-sdk-add-to-cart-button{
     margin: 0 20%;
@@ -44,4 +41,12 @@ main .catproduct-container{
 
 .ds-widgets .gap-x-2xl{
     column-gap: 2rem;
+}
+
+.ds-widgets_results .ds-sdk-product-list > div{
+    column-gap: 2rem;
+}
+
+.ds-widgets_results .ds-sdk-product-list > div > div:nth-child(1){
+    max-width: 30rem;
 }
