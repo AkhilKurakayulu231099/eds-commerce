@@ -38,3 +38,6 @@
 .ds-sdk-add-to-cart-button button{
     height: 40px;
 }
+.ds-widgets .max-w-\[200px\] {
+    display: contents;
+}
