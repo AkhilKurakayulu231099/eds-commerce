@@ -54,7 +54,7 @@ export default async function decorate(block) {
 // remove class in product list
   var productimg = document.querySelector('.ds-sdk-product-image-carousel .flex-nowrap div');
   console.log("sdssssss",productimg);
-  productimg.classList.remove('max-w-[200px]');
+  //productimg.classList.remove('max-w-[200px]');
 
   
   
