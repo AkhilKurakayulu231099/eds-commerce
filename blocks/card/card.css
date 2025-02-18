@@ -75,7 +75,3 @@
 .card-section .button-container a.button:hover {
     border: 1px solid #00808c;   
 }
-
-.card-block-blue > p{
-    padding-bottom: 1.6rem;
-}
