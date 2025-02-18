@@ -26,7 +26,7 @@ main .catproduct-container{
 .ds-sdk-product-item__product-name{
     padding-top: 2rem;
     font-size: 1.8rem !important;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .ds-sdk-add-to-cart-button{
