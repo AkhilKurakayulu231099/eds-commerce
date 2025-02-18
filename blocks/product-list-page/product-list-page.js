@@ -53,7 +53,7 @@ export default async function decorate(block) {
 
 // remove class in product list
 const productimg = document.querySelector('.ds-sdk-product-image-carousel');
-productimg.removeClass('max-w-[200px]');
+  productimg.classList.remove('max-w-[200px]');
   console.log("sdssssss");
 
   if (type !== 'search') {
