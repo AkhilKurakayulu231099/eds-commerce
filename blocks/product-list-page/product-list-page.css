@@ -45,8 +45,27 @@ main .catproduct-container{
 
 .ds-widgets_results .ds-sdk-product-list > div{
     column-gap: 2rem;
+    margin: 0;
 }
 
 .ds-widgets_results .ds-sdk-product-list > div > div{
     max-width: 30rem;
+    border-color: rgb(230 225 225 / 41%);
+}
+
+.catproduct > div > div > h1{
+    font-size: 3.2rem;
+    font-family: "miller-display";
+}
+
+.ds-widgets_results > div.flex.flex-row.justify-between{
+    padding-bottom: 2rem;
+}
+
+.ds-widgets_results > div.flex.flex-row.justify-between > div > div{
+    border-width: inherit;
+}
+
+.ds-widgets_results > div.flex.flex-row.justify-between > div > div > button{
+    background-color: #56585a42;
 }
