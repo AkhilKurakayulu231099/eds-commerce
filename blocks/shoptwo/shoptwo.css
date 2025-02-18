@@ -52,3 +52,8 @@
     background-color: var(--color-brand-600);
 }
 
+.shoptwo picture img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
