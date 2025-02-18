@@ -30,6 +30,9 @@ export default async function decorate(block) {
         throw new Error('No category ID found in product list page block');
       }
       filters.categories = categoryId;
+
+      var productimg = document.querySelector('.ds-sdk-product-image-carousel .flex-nowrap div');
+  console.log("sdssssss",productimg);
     }
 
     if (position) {
