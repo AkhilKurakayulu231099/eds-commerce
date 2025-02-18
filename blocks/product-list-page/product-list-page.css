@@ -45,3 +45,7 @@ main .catproduct-container{
 .ds-widgets .gap-x-2xl{
     column-gap: 2rem;
 }
+
+.ds-widgets_results .ds-sdk-product-list > div{
+    column-gap: 2rem;
+}
