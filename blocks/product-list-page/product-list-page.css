@@ -47,6 +47,6 @@ main .catproduct-container{
     column-gap: 2rem;
 }
 
-.ds-widgets_results .ds-sdk-product-list > div > div:nth-child(1){
+.ds-widgets_results .ds-sdk-product-list > div > div{
     max-width: 30rem;
 }
