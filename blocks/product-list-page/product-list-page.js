@@ -51,7 +51,7 @@ export default async function decorate(block) {
     },
   };
 
-  if (type !== 'search') {
+if (type !== 'search') {
     storeDetails.config.categoryName = document.querySelector('.default-content-wrapper > h1')?.innerText;
     storeDetails.config.currentCategoryId = category;
     storeDetails.config.currentCategoryUrlPath = urlpath;
@@ -68,6 +68,9 @@ export default async function decorate(block) {
       }
     }, 200);
   });
-
+// remove class in product list
+  var productimg = document.querySelector('.ds-sdk-product-image-carousel .flex-nowrap div');
+  console.log("sdssssss",productimg);
+  //productimg.classList.remove('max-w-[200px]');
   return window.LiveSearchPLP({ storeDetails, root: block });
 }
