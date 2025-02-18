@@ -50,7 +50,3 @@ main .catproduct-container{
 .ds-widgets_results .ds-sdk-product-list > div > div:nth-child(1){
     max-width: 30rem;
 }
-
-.ds-widgets_results .ds-sdk-product-list > div{
-    column-gap: 2rem;
-}
