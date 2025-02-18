@@ -5,7 +5,7 @@
     padding: 0;
     display: flex;
     grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-    grid-gap: 24px;
+    grid-gap: 40px;
     padding: 0 32px;
 }
 
@@ -44,11 +44,12 @@
     text-align: center;
 }
 
-.imgShoptwo{
-    padding-left: 30px;
-}
-
 .shoptwo .button-container .button:hover{
     background-color: var(--color-brand-600);
 }
 
+.shoptwo picture img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
