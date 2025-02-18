@@ -52,7 +52,7 @@ export default async function decorate(block) {
   };
 
 // remove class in product list
-//$('.ds-sdk-product-image-carousel').removeClass('max-w-[200px]');
+$('.ds-sdk-product-image-carousel').removeClass('max-w-[200px]');
   console.log("sdssssss");
 
   if (type !== 'search') {
