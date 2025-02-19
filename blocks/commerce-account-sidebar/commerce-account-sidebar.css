@@ -1,9 +1,21 @@
-@media (width >= 900px) {
-    body.columns main > .section.commerce-account-sidebar-container {
-        max-width: var(--column-width);
-    }
+body.columns main > .section.commerce-account-sidebar-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 40px;
 }
 
+.commerce-account-sidebar-wrapper {
+    grid-row: 1 / span 5;
+    margin-top: 0;
+}
+
+.commerce-account-header-wrapper,
+.commerce-orders-list-wrapper,
+.commerce-addresses-wrapper,
+.commerce-customer-information-wrapper,
+.commerce-returns-list-wrapper {
+    width: 100%;
+}
 .commerce-account-sidebar-wrapper .commerce-account-sidebar .commerce-account-sidebar-item {
     display: flex;
     align-items: center;
