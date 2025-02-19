@@ -92,12 +92,12 @@ main .catproduct-container{
     font-weight: bold !important;
 }
 
-div.section.product-list-container > div > div > div > div > div.ds-widgets_results > div.ds-sdk-product-list > div{
+div.section.product-list-container > div > div > div > div > div.ds-widgets_results > div.ds-sdk-product-list > div > div{
     max-width: 30rem;
     border-color: rgb(230 225 225 / 41%) !important;
     border: 2px solid #56585a;
 }
 
-div.section.product-list-container > div > div > div > div > div.ds-widgets_results > div.ds-sdk-product-list > div:hover{
+div.section.product-list-container > div > div > div > div > div.ds-widgets_results > div.ds-sdk-product-list > div > div:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
