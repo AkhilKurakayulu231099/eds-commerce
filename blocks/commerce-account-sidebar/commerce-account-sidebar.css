@@ -4,7 +4,7 @@ body.columns main > .section.commerce-account-sidebar-container {
     gap: 40px;
 }
 
-.commerce-account-sidebar-wrapper {
+body.columns main > .section >.commerce-account-sidebar-wrapper {
     grid-row: 1 / span 5;
     margin-top: 0;
 }
