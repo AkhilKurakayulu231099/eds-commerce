@@ -1,0 +1,97 @@
+/* stylelint-disable selector-class-pattern */
+.product-list-page {
+    min-height: 700px;
+}
+
+.product-list-page .ds-sdk-product-item__image img {
+    aspect-ratio: 185 / 230;
+    object-fit: contain;
+}
+
+@media (width >= 750px) {
+    .product-list-page {
+        min-height: auto;
+    }
+}
+
+
+main .product-list-page-container{
+    margin: 0 2%;
+}
+
+main .catproduct-container{
+    margin: 0 2%;
+}
+
+.ds-sdk-product-item__product-name{
+    font-size: 1.8rem;
+    padding-top: 2rem;
+}
+
+.ds-sdk-add-to-cart-button{
+    margin: 0 20%;
+}
+
+.ds-sdk-add-to-cart-button button{
+    height: 40px;
+}
+.ds-widgets .max-w-\[200px\] {
+    display: contents;
+}
+
+.ds-widgets .gap-x-2xl{
+    column-gap: 2rem;
+}
+
+.ds-widgets_results .ds-sdk-product-list > div{
+    column-gap: 2rem;
+    margin: 0;
+}
+
+.ds-widgets_results .ds-sdk-product-list > div > div{
+    max-width: 30rem;
+    border-color: rgb(230 225 225 / 41%);
+}
+
+.catproduct > div > div > h1,h2{
+    font-size: 3.2rem;
+    font-family: "miller-display";
+    border-bottom: 1px solid #e3e3d8;
+}
+
+.product-list-page-container > div >h1{
+    font-size: 3.2rem;
+    font-family: "miller-display";
+    border-bottom: 1px solid #e3e3d8;
+}
+
+.ds-widgets_results > div.flex.flex-row.justify-between{
+    padding-bottom: 2rem;
+    /*display: none;/* removing no.of items filter*/
+}
+
+.ds-widgets_results > div.flex.flex-row.justify-between > div > div{
+    border-width: inherit;
+}
+
+.ds-widgets_results > div.flex.flex-row.justify-between > div > div > button{
+    background-color: #56585a42;
+}
+
+.ds-widgets_results.flex.flex-col.items-center.flex-\[75\] > div > ul > li{
+    text-decoration-line: none;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.ds-widgets_results.flex.flex-col.items-center.flex-\[75\] > div > ul > li:hover{
+    background-color: #d3d4d4;
+    color: black;
+}
+
+.ds-widgets_results.flex.flex-col.items-center.flex-\[75\] > div > ul > li.ds-plp-pagination__item--current{
+    background-color: #56585a;
+    color: white;
+}
