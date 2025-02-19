@@ -9,6 +9,13 @@ body.columns main > .section.commerce-account-sidebar-container .commerce-accoun
     margin-top: 0;
 }
 
+body.columns main > .section.commerce-account-sidebar-container div:first-child div {
+    width: auto;
+}
+body.columns main > .section.commerce-account-sidebar-container div:first-child {
+    width: auto;
+}
+
 body.columns main > .section.commerce-account-sidebar-container div {
     width: 100%;
 }
