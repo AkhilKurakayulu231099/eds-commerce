@@ -67,7 +67,7 @@ main .catproduct-container{
 
 .ds-widgets_results > div.flex.flex-row.justify-between{
     padding-bottom: 2rem;
-    /*display: none;/* removing no.of items filter*/
+    display: none;/* removing no.of items filter*/
 }
 
 .ds-widgets_results > div.flex.flex-row.justify-between > div > div{
