@@ -56,6 +56,10 @@ main .catproduct-container{
     border: 2px solid #56585a;
 }
 
+.ds-widgets_results .ds-sdk-product-list > div > div:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .catproduct > div > div > h1,h2{
     font-size: 3.2rem;
     font-family: "miller-display";
