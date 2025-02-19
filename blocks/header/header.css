@@ -498,3 +498,12 @@ header .nav-search-input .search_autocomplete .popover-container {
   margin-top: 20px;
   z-index: 3;
 }
+
+#nav > div.section.nav-brand > div > p > a{
+  text-decoration: none;
+}
+
+#nav > div.section.nav-sections > div > ul > li > a:hover{
+  text-decoration: none;
+  color: #56585a;
+}
