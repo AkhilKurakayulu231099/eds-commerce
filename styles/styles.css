@@ -510,3 +510,7 @@ main[hidden] {
 .product-details__attributes {
     display: none;
 }
+/*hiding fav icon */
+.dropin-iconButton--secondary {
+    display: none;
+}
