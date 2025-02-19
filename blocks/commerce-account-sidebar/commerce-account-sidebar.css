@@ -5,17 +5,14 @@ body.columns main > .section.commerce-account-sidebar-container {
 }
 
 body.columns main > .section >.commerce-account-sidebar-wrapper {
-    grid-row: 1 / span 5;
+    grid-row: 1 / span 6;
     margin-top: 0;
 }
 
-.commerce-account-header-wrapper,
-.commerce-orders-list-wrapper,
-.commerce-addresses-wrapper,
-.commerce-customer-information-wrapper,
-.commerce-returns-list-wrapper {
+body.columns main > .section .commerce-account-sidebar-container > div {
     width: 100%;
 }
+
 .commerce-account-sidebar-wrapper .commerce-account-sidebar .commerce-account-sidebar-item {
     display: flex;
     align-items: center;
