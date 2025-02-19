@@ -9,7 +9,7 @@ body.columns main > .section >.commerce-account-sidebar-wrapper {
     margin-top: 0;
 }
 
-body.columns main > .section .commerce-account-sidebar-container > div {
+body.columns main > .section.commerce-account-sidebar-container div {
     width: 100%;
 }
 
