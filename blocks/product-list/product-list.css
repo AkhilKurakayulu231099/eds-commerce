@@ -1,21 +1,21 @@
 /* stylelint-disable selector-class-pattern */
-.product-list-page {
+.product-list {
     min-height: 700px;
 }
 
-.product-list-page .ds-sdk-product-item__image img {
+.product-list .ds-sdk-product-item__image img {
     aspect-ratio: 185 / 230;
     object-fit: contain;
 }
 
 @media (width >= 750px) {
-    .product-list-page {
+    .product-list {
         min-height: auto;
     }
 }
 
 
-main .product-list-page-container{
+main .product-list-container{
     margin: 0 2%;
 }
 
@@ -24,14 +24,12 @@ main .catproduct-container{
 }
 
 .ds-sdk-product-item__product-name{
+    font-size: 1.8rem;
     padding-top: 2rem;
-    font-size: 1.8rem !important;
-    font-weight: bold !important;
 }
 
 .ds-sdk-add-to-cart-button{
     margin: 0 20%;
-    padding-top: 1rem;
 }
 
 .ds-sdk-add-to-cart-button button{
@@ -52,12 +50,7 @@ main .catproduct-container{
 
 .ds-widgets_results .ds-sdk-product-list > div > div{
     max-width: 30rem;
-    border-color: rgb(230 225 225 / 41%) !important;
-    border: 2px solid #56585a;
-}
-
-.ds-widgets_results .ds-sdk-product-list > div > div:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: rgb(230 225 225 / 41%);
 }
 
 .catproduct > div > div > h1,h2{
@@ -66,7 +59,7 @@ main .catproduct-container{
     border-bottom: 1px solid #e3e3d8;
 }
 
-.product-list-page-container > div >h1{
+.product-list-container > div >h1{
     font-size: 3.2rem;
     font-family: "miller-display";
     border-bottom: 1px solid #e3e3d8;
@@ -74,7 +67,7 @@ main .catproduct-container{
 
 .ds-widgets_results > div.flex.flex-row.justify-between{
     padding-bottom: 2rem;
-    /*display: none;/* removing no.of items filter*/
+    display: none;/* removing no.of items filter*/
 }
 
 .ds-widgets_results > div.flex.flex-row.justify-between > div > div{
@@ -101,11 +94,4 @@ main .catproduct-container{
 .ds-widgets_results.flex.flex-col.items-center.flex-\[75\] > div > ul > li.ds-plp-pagination__item--current{
     background-color: #56585a;
     color: white;
-}
-.ds-widgets_results > .ds-sdk-product-list > div > div > a:hover{
-    text-decoration: none;
-}
-
-.ds-sdk-product-price{
-    padding-top: 1rem;
 }
