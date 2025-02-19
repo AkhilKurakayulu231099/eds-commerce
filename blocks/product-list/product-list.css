@@ -23,11 +23,6 @@ main .catproduct-container{
     margin: 0 2%;
 }
 
-.ds-sdk-product-item__product-name{
-    font-size: 1.8rem;
-    padding-top: 2rem;
-}
-
 .ds-sdk-add-to-cart-button{
     margin: 0 20%;
 }
@@ -46,11 +41,6 @@ main .catproduct-container{
 .ds-widgets_results .ds-sdk-product-list > div{
     column-gap: 2rem;
     margin: 0;
-}
-
-.ds-widgets_results .ds-sdk-product-list > div > div{
-    max-width: 30rem;
-    border-color: rgb(230 225 225 / 41%);
 }
 
 .catproduct > div > div > h1,h2{
@@ -94,4 +84,24 @@ main .catproduct-container{
 .ds-widgets_results.flex.flex-col.items-center.flex-\[75\] > div > ul > li.ds-plp-pagination__item--current{
     background-color: #56585a;
     color: white;
+}
+
+.ds-sdk-product-item__product-name{
+    padding-top: 2rem;
+    font-size: 1.8rem !important;
+    font-weight: bold !important;
+}
+
+div.section.product-list-container > div > div > div > div > div.ds-widgets_results > div.ds-sdk-product-list > div > div{
+    max-width: 30rem;
+    border-color: rgb(230 225 225 / 41%) !important;
+    border: 2px solid #56585a;
+}
+
+div.section.product-list-container > div > div > div > div > div.ds-widgets_results > div.ds-sdk-product-list > div > div:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-list-container > div > div > div > div > .ds-widgets_results > .ds-sdk-product-list > div > div > a:hover{
+    text-decoration: none;
 }
