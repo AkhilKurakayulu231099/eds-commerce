@@ -81,8 +81,9 @@
         display: block;
     }
 
-    .card-section {
+    .card-block {
        width: 100%;
+       padding: 2rem;
        margin: 20px;
      }
 }
