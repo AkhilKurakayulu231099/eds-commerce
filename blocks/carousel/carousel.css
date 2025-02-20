@@ -156,3 +156,10 @@
     --slide-content-width: auto;
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .carousel-slide-image {
+      height: 200px;
+    }
+}
