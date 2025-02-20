@@ -52,6 +52,10 @@
 
     .ownsaction-section {
         width: calc(50% - 20px);
-  }
+    }
+
+    .ownsaction-container {
+        padding: 0 20px;
+    }
 }
  
