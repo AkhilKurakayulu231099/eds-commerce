@@ -48,6 +48,8 @@
 @media only screen and (max-width: 600px) {
     .sactional {
         flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
     }
 
     .sactional-section {
