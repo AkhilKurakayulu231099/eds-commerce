@@ -4,6 +4,12 @@ body.columns main > .section.commerce-account-sidebar-container {
     gap: 40px;
 }
 
+@media only screen and (max-width: 600px) {
+  body.columns main > .section.commerce-account-sidebar-container {
+    display: block;
+  }
+}
+
 body.columns main > .section.commerce-account-sidebar-container .commerce-account-sidebar-wrapper {
     grid-row: 1 / span 6;
     margin-top: 0;
