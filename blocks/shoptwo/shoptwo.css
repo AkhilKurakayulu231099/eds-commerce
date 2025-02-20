@@ -62,5 +62,9 @@
     .shoptwo .button-container .button {
         padding: 1.3rem 2.2rem;
   }
+
+    .shoptwo picture img {
+        height: 200px;
+    }
 }
  
