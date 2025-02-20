@@ -53,3 +53,14 @@
     width: 100%;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 600px) {
+    .shoptwo {
+        display: block;
+    }
+
+    .shoptwo .button-container .button {
+        padding: 1.3rem 2.2rem;
+  }
+}
+ 
