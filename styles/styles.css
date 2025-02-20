@@ -12,9 +12,9 @@
  * governing permissions and limitations under the License.
  */
 /*Index page featured style */
-/*body > main > div.section.product-list-page-container > div > div > div > div > div.ds-widgets_results.flex.flex-col.items-center.flex-\[75\] > div:nth-child(2){
+body > main > div.section.product-list-page-container > div > div > div > div > div.ds-widgets_results.flex.flex-col.items-center.flex-\[75\] > div:nth-child(2){
     display: none;
-}*/
+}
 body > main > div.section.product-list-container > div > div > div > div > div.ds-widgets_results.flex.flex-col.items-center.flex-\[75\] > div:nth-child(2){
     display: none;
 }
