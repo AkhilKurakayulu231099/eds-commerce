@@ -86,3 +86,27 @@ footer .footer > div {
 footer .footer p {
   margin: 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .contact-info-container {
+      padding: 2.6rem 2.6rem 1rem;
+    }
+
+    .contact-info {
+      display: block;
+    }
+    
+    .contact-info-section {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .phone-info, .email-info {
+        justify-content: center;
+    }
+
+    .phone-info p:first-child, .email-info p:first-child {
+        text-align: left;
+    }
+}
+
