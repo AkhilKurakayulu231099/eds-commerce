@@ -43,3 +43,15 @@
     margin: 0;
     text-align: center;
   }
+@media only screen and (max-width: 600px) {
+    .ownsaction {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .ownsaction-section {
+        width: calc(50% - 20px);
+  }
+}
+ 
