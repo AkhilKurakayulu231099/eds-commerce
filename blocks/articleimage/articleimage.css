@@ -8,3 +8,8 @@
     height: 500px;
     object-fit: cover;
 }
+@media only screen and (max-width: 600px) {
+   .articleimage img {
+        height: 200px;    
+    }
+}
