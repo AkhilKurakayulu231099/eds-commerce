@@ -45,4 +45,19 @@
     text-align: center;
   }
 
+@media only screen and (max-width: 600px) {
+    .sactional {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .sactional-section {
+        width: calc(50% - 20px);
+     }
+    
+    .ownsaction-container {
+        padding: 0 20px;
+    }
+}
  

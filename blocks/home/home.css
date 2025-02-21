@@ -57,3 +57,16 @@
   background-color: var(--color-brand-600);
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .buttonclass {
+      position: relative;
+      bottom: 0;
+      left: 0;
+      text-align: center
+    }
+
+     .buttonclass ul {
+       padding-inline-start: 0px;
+     }
+}
