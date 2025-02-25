@@ -48,15 +48,5 @@ provider.render(MiniCart, {
   routeCheckout: () => 'your-checkout-element',
 })(document.getElementById('your-mini-cart-element'));
 
-await initializeDropin(async () => {
-  setFetchGraphQlHeaders(await getHeaders('cart'));
-
-  const labels = await fetchPlaceholders();
-  const langDefinitions = {
-    default: {
-      ...labels,
-    },
-  };
-
   return initializers.mountImmediately(initialize, { langDefinitions });
 })();
