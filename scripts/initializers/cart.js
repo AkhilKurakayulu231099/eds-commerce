@@ -29,6 +29,25 @@ pkg.setFetchGraphQlHeader('commerce-auth', '<token>');
 // Set store code header. This method is specific to the @dropins/tools package.
 mesh.setFetchGraphQlHeader('store', '<default>');
 
+// Render Cart
+provider.render(Cart, {
+  routeProduct: (item) => {
+    return `${item.url.categories.join('/')}/${item.url.urlKey}`;
+  },
+  routeEmptyCartCTA: () => 'your-empty-cart-element',
+  routeCheckout: () => 'your-checkout-element',
+})(document.getElementById('your-cart-element'));
+
+// Render MiniCart
+provider.render(MiniCart, {
+  routeProduct: (item) => {
+    return `${item.url.categories.join('/')}/${item.url.urlKey}`;
+  },
+  routeEmptyCartCTA: () => 'your-empty-cart-element',
+  routeCart: () => 'your-cart-element',
+  routeCheckout: () => 'your-checkout-element',
+})(document.getElementById('your-mini-cart-element'));
+
 await initializeDropin(async () => {
   setFetchGraphQlHeaders(await getHeaders('cart'));
 
